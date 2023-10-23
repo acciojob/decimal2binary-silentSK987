@@ -4,13 +4,10 @@ function decimalToBinary(num) {
 	let ans=0;
 	while(num>0){
 		let rem=num%2;
-		num=num/2;
 		ans=ans+rem*pv;
+		num=num/2;
 		pv*=10;
 	}
-	return ans;
-	
-  
+	console.log(ans);
 }
-
 window.decimalToBinary = decimalToBinary;
