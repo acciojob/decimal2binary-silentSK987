@@ -8,6 +8,6 @@ function decimalToBinary(num) {
 		num=Math.floor(num/2);
 		pv*=10;
 	}
-	console.log(ans);
+	return ans;
 }
 window.decimalToBinary = decimalToBinary;
